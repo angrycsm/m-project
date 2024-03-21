@@ -38,7 +38,6 @@ body {
   .center {
 		width: 100vw;
     height: 224px;
-		border: 2px solid;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-end;
