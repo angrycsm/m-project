@@ -25,55 +25,53 @@ body {
 }
 
 @media screen and (max-width: 720px) {
-	body {
-		width: 100%;
-		height: 100%;
-		background-image: linear-gradient(
-			360deg,
-			#ffc2ff,
-			#fff0ff
-		);
-    background-color: rgba(255, 255, 255, 1);
+		body {
+			width: 100%;
+			height: 100%;
+			background-image: linear-gradient(
+				360deg,
+				#ff85ff,
+				#fff0ff 60%,
+			);
+	    background-color: rgba(255, 255, 255, 1);
+			}
+
+		.center {
+			width: 100vw;
+	    height: 200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items: center;
+			text-align: center;
 		}
-  }
 
-  .center {
-		width: 100vw;
-    height: 224px;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
-		align-items: center;
-		text-align: center;
-		
-	}
+	  .title {
+			font-size: 48px;
+			font-weight: bold;
+			padding-bottom: 5px;
+			background-image: var(--gradient);
+			background-clip: text;
+			-webkit-background-clip: text;
+			color: transparent;
+		}
 
-	.title {
-		font-size: 48px;
-		font-weight: bold;
-		background-image: var(--gradient);
-		background-clip: text;
-		-webkit-background-clip: text;
-		color: transparent;
-	}
+	  .po {
+			padding-bottom: 30px;
+		  letter-spacing: -1px;
+		}
 
-	.po {
-		padding-top: 15px;
-		letter-spacing: -1px;
-	}
-
-	main {
+	  main {
 		width: 95vw;
-    height: 800px;
+    height: 700px;
     margin: 8px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: start;
-		
-	}
+		}
 
-	.card {
+	  .card {
 		border: 1.5px solid purple;
 		border-radius: 20px;
 		width: 254px;
@@ -83,21 +81,64 @@ body {
     background-image: var(--gradient-card);
 		text-align: center;
 		color: white;
-	}
-	
-	.card h3 {
+		}
+
+	  .card h3 {
 		padding-top: 24px;
 	}
 
-	.card button {
-		background-color: transparent;
-		margin: 44px;
-		border: none;
-		color: white;
-		text-align: center;
-		font-size: 19px;
-		cursor: pointer;
-		font-weight: bold;
-	}
+		.card button {
+			background-color: transparent;
+			margin: 44px;
+			border: none;
+			color: white;
+			text-align: center;
+			font-size: 19px;
+			cursor: pointer;
+			font-weight: bold;
+		}
 
-}
+	  .bar {
+		  width: 100%;
+			height: 40px;
+		}
+
+	  .logo {
+			width: 100px;
+			height: 40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+		}
+
+	  .logo img {
+			width: 28px;
+			height: 28px;
+		}
+
+	  .logo h3 {
+			background-image: linear-gradient(
+				40deg, #ff0ff7, #8c00ff
+			);
+			background-clip: text;
+	    -webkit-background-clip: text;
+			color: transparent;
+			padding-left: 5px;
+		}
+  }
+
+  
+
+	
+
+	
+
+	
+
+	
+	
+	
+
+  
+
