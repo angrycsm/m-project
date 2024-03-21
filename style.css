@@ -1,0 +1,103 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: "Inter", sans serif;
+	
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(
+		360deg,
+		#ffc2ff,
+		#fff0ff
+	);
+}
+
+:root {
+	--gradient: linear-gradient(120deg, #940074, #ff59fc);
+	--gradient-card: linear-gradient(
+		120deg,
+		#fa3ec2, #c800ff
+	)
+}
+
+@media screen and (max-width: 720px) {
+	body {
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient(
+			360deg,
+			#ffc2ff,
+			#fff0ff
+		);
+  }
+
+  .center {
+		width: 100vw;
+    height: 224px;
+		border: 2px solid;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+		text-align: center;
+		
+	}
+
+	.title {
+		border: 2px solid green;
+		font-weight: bold;
+		background-image: var(--gradient);
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: transparent;
+	}
+
+	.po {
+		border: 2px solid red;
+		letter-spacing: -1px;
+	}
+
+	main {
+		border: 2px solid blue;
+		width: 95vw;
+    height: 900px;
+    margin: 8px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: start;
+		
+	}
+
+	.card {
+		border: 1.5px solid purple;
+		border-radius: 20px;
+		width: 254px;
+		height: 200px;
+		padding: 2px;
+		margin: 10px;
+    background-image: var(--gradient-card);
+		text-align: center;
+		color: white;
+	}
+	
+	.card h3 {
+		padding-top: 24px;
+	}
+
+	.card button {
+		background-color: transparent;
+		margin: 44px;
+		border: none;
+		color: white;
+		text-align: center;
+		font-size: 19px;
+		cursor: pointer;
+		font-weight: bold;
+	}
+
+}
