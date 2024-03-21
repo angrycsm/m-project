@@ -48,7 +48,6 @@ body {
 	}
 
 	.title {
-		border: 2px solid green;
 		font-weight: bold;
 		background-image: var(--gradient);
 		background-clip: text;
@@ -57,12 +56,10 @@ body {
 	}
 
 	.po {
-		border: 2px solid red;
 		letter-spacing: -1px;
 	}
 
 	main {
-		border: 2px solid blue;
 		width: 95vw;
     height: 900px;
     margin: 8px;
